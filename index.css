@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(./Capture1.PNG);
+    background-size: cover;
+
+}
+
+
+@keyframes animatecontect {
+    to {
+        opacity: 1;
+    }
+}
+
+.registrer {
+    width: 1200px;
+    height: 700px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.37);
+    margin: auto;
+    position: relative;
+    top: 220px;
+    border-radius: 30px;
+    transition: 0.3s all ease;
+}
+
+.registrer:hover {
+    backdrop-filter: blur(10px);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px 30px black;
+}
+
+.registrertext {
+    font-family: 'Bungee Spice', sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+
+input {
+    display: grid;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    width: 600px;
+    height: 70px;
+    border-radius: 30px;
+    background: transparent;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+}
+
+
+
+::placeholder {
+    color: white;
+    font-size: larger;
+}
+
+hr {
+    position: relative;
+    top: 40px;
+    width: 400px;
+    margin: auto;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.checkbox {
+    position: relative;
+    left: 358px;
+    width: 18px;
+    margin: 0;
+}
+
+.checkboxlab {
+    position: relative;
+    left: 380px;
+    top: 95px;
+    cursor: pointer;
+}
+
+p {
+    position: relative;
+    top: 7px;
+    left: 730px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+p:hover {
+    color: blue;
+}
+
+button {
+    position: relative;
+    left: 410px;
+    top: 70px;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    border: solid;
+    background: linear-gradient(to bottom, rgb(255, 174, 0),
+            rgb(255, 81, 0));
+    transition: 0.3s all ease;
+    font-size: larger;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+span {
+    position: relative;
+    left: 95px;
+    top: 120px;
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+}
+
+form {
+    opacity: 0;
+    transition: 0.4s all ease;
+}
+
+form:hover {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1549px) {
+    
+    .registrer {
+        width: 600px;
+    }
+
+    .registrertext {
+        font-size: 55px;
+    }
+    
+    .checkbox {
+        left: 110px;
+    }
+
+    .checkboxlab {
+        left: 132px;
+    }
+
+    p {
+        left: 380px;
+
+    }
+
+    button {
+        left: 110px;
+        
+    }
+
+    span {
+        left: 200px;
+        display: flex;
+    }
+}

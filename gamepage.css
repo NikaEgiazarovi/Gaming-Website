@@ -1,0 +1,470 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #10131C;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201553;
+    height: 70px;
+    align-items: center;
+    padding-inline: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+ul {
+    margin-right: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    transition: 0.4s all ease;
+    font-size: larger;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+li:hover {
+    color: #000;
+    background-color: rgb(24, 119, 119);
+    font-size: 25px;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+li:active {
+    background-color: rgb(3, 253, 128);
+}
+
+i {
+    color: rgb(226, 106, 0);
+    -webkit-text-stroke: 2px black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(226, 106, 0);
+    border-radius: 12px;
+    padding: 5px;
+    width: 150px;
+    transition: 0.4s;
+    border: 2px solid;
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+nav {
+    margin-left: 460px;
+}
+
+a {
+    color: rgb(226, 106, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btns .fa-bars {
+    display: none;
+}
+
+.account {
+    color: black;
+}
+
+
+@keyframes animatecontect {
+    to {
+        opacity: 1;
+    }
+}
+
+.parentdiv {
+    opacity: 0;
+    animation: animatecontect 4s ease forwards;
+}
+
+
+footer {
+    position: relative;
+    top: 1345px;
+    height: 520px;
+    width: 100%;
+    background-color: #201553;
+}
+
+.footer1 {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-size: 70px;
+    text-decoration: none;
+    font-family: 'Bungee Spice', sans-serif;
+    width: fit-content;
+
+}
+
+.footer2 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.foot1 {
+    width: 400px;
+    height: 335px;
+}
+
+.foot2 {
+    width: 400px;
+    height: 335px;
+}
+
+.foot3 {
+    width: 400px;
+    height: 335px;
+}
+
+
+
+.contact1 {
+    width: fit-content;
+    position: relative;
+    top: 10px;
+    color: rgb(224, 224, 224);
+    font-size: 25px;
+    margin: auto;
+}
+
+.contact2 {
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: rgb(224, 224, 224);
+    margin: auto;
+}
+
+.contact3 {
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    color: rgb(224, 224, 224);
+    margin: auto;
+}
+
+.quick {
+    width: fit-content;
+    position: relative;
+    top: 10px;
+    color: rgb(224, 224, 224);
+    font-size: 25px;
+    margin: auto;
+}
+
+.quick2 {
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(224, 224, 224);
+    margin-left: 95px;
+}
+
+.quick3 {
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    color: rgb(224, 224, 224);
+    margin-left: 140px;
+}
+
+.fc1 {
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(224, 224, 224);
+    margin: 140px;
+    cursor: pointer;
+}
+
+.inst {
+    width: fit-content;
+    position: relative;
+    top: 65px;
+    color: rgb(224, 224, 224);
+    margin-left: 155px;
+    cursor: pointer;
+
+}
+
+.yt {
+    width: fit-content;
+    position: relative;
+    top: 90px;
+    color: rgb(224, 224, 224);
+    margin-left: 162px;
+    cursor: pointer;
+
+}
+
+.tw {
+    width: fit-content;
+    position: relative;
+    top: 110px;
+    color: rgb(224, 224, 224);
+    margin-left: 170px;
+    cursor: pointer;
+
+}
+
+.firstpic {
+    width: 100%;
+    height: 800px;
+    object-position: top;
+    object-fit: cover;
+    filter: brightness(-40);
+}
+
+marquee {
+    font-family: 'Bungee Spice', sans-serif;
+    background-color: #201553;
+    padding: 20px;
+    position: relative;
+    bottom: 4px;
+    font-size: 22px;
+}
+
+section {
+    position: relative;
+    top: 200px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.sec1 {
+    position: relative;
+    top: 500px;
+}
+
+.row2 {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.sec2 {
+    position: relative;
+    top: 900px;
+}
+
+.row3 {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(to top, #0D0F13,
+            #171F29);
+    transition: 0.3s all ease;
+    outline: 0.5px solid rgb(71, 71, 71);
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 0px 15px 3px white;
+    cursor: pointer;
+}
+
+.hr1 {
+    position: relative;
+    top: 260px;
+}
+
+.hr2 {
+    position: relative;
+    top: 660px;
+}
+
+.introduce {
+    font-size: 90px;
+    position: relative;
+    bottom: 2760px;
+    text-align: center;
+    font-family: Creepster;
+    -webkit-text-fill-color: #00ffb3;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.iconph1 {
+    width: 1000px;
+    position: relative;
+    left: 780px;
+}
+
+.rowtext {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-size: 60px;
+    font-family: 'Bungee Spice', sans-serif;
+    letter-spacing: 0.20rem;
+
+}
+
+.rowtext1 {
+    text-align: center;
+    position: relative;
+    top: 370px;
+    font-size: 60px;
+    font-family: 'Bungee Spice', sans-serif;
+    letter-spacing: 0.20rem;
+
+}
+
+.rowtext2 {
+    text-align: center;
+    position: relative;
+    top: 770px;
+    font-size: 60px;
+    font-family: 'Bungee Spice', sans-serif;
+    letter-spacing: 0.20rem;
+
+}
+
+.cardimg1 {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    padding-inline: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.row1:hover .card {
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.row1 .card:hover {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.row2:hover .card {
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.row2 .card:hover {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.row3:hover .card {
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.row3 .card:hover {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+h6 {
+    color: gray;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-size: 28px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.iconphmain {
+    position: relative;
+    top: 1000px;
+}
+
+@media screen and (max-width: 2419px) {
+    .iconph1 {
+        display: none;
+     }
+ 
+}
+
+@media screen and (max-width: 1635px) {
+    header ul {
+        display: none;
+    }
+
+    .btns .fa-bars {
+        display: flex;
+    }
+
+    footer {
+        height: 1300px;
+    }
+
+    .footer2 {
+        position: relative;
+        top: 140px;
+    }
+
+}
+
+@media screen and (max-width: 2419px) {
+    .introduce {
+        display: none;
+    }
+}
+

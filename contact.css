@@ -1,0 +1,658 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0E063D;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201553;
+    height: 70px;
+    align-items: center;
+    padding-inline: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    transition: 0.4s all ease;
+    font-size: larger;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+li:hover {
+    color: #000;
+    background-color: rgb(24, 119, 119);
+    font-size: 25px;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+li:active {
+    background-color: rgb(3, 253, 128);
+}
+
+i {
+    color: rgb(226, 106, 0);
+    -webkit-text-stroke: 2px black;
+    width: 100px;
+    font-size: 50px;
+}
+
+.Registrer1 {
+    background-color: rgb(226, 106, 0);
+    border-radius: 12px;
+    padding: 5px;
+    width: 150px;
+    transition: 0.4s;
+    border: 2px solid;
+}
+
+button {
+    background-color: rgb(226, 106, 0);
+    border-radius: 12px;
+    padding: 5px;
+    width: 150px;
+    transition: 0.4s;
+    border: 2px solid;
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+nav {
+    margin-left: 460px;
+}
+
+a {
+    color: rgb(226, 106, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.account {
+    color: black;
+}
+
+
+@keyframes animatecontect {
+    to {
+        opacity: 1;
+    }
+}
+
+.parentdiv {
+    opacity: 0;
+    animation: animatecontect 4s ease forwards;
+}
+
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: #201553;
+}
+
+.footer1 {
+    font-size: 70px;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-family: 'Bungee Spice', sans-serif;
+    display: flex;
+    width: fit-content;
+}
+
+.footer2 {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+
+}
+
+.foot1 {
+    width: 400px;
+    height: 335px;
+}
+
+.foot2 {
+    width: 400px;
+    height: 335px;
+}
+
+.foot3 {
+    width: 400px;
+    height: 335px;
+}
+
+
+
+.contact1 {
+    width: fit-content;
+    position: relative;
+    top: 10px;
+    color: rgb(224, 224, 224);
+    font-size: 25px;
+    margin: auto;
+}
+
+.contact2 {
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: rgb(224, 224, 224);
+    margin: auto;
+}
+
+.contact3 {
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    color: rgb(224, 224, 224);
+    margin: auto;
+}
+
+.quick {
+    width: fit-content;
+    position: relative;
+    top: 10px;
+    color: rgb(224, 224, 224);
+    font-size: 25px;
+    margin: auto;
+}
+
+.quick2 {
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(224, 224, 224);
+    margin-left: 95px;
+}
+
+.quick3 {
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    color: rgb(224, 224, 224);
+    margin-left: 140px;
+}
+
+.fc1 {
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(224, 224, 224);
+    margin: 140px;
+    cursor: pointer;
+}
+
+.inst {
+    width: fit-content;
+    position: relative;
+    top: 65px;
+    color: rgb(224, 224, 224);
+    margin-left: 155px;
+    cursor: pointer;
+
+}
+
+.yt {
+    width: fit-content;
+    position: relative;
+    top: 90px;
+    color: rgb(224, 224, 224);
+    margin-left: 162px;
+    cursor: pointer;
+
+}
+
+.tw {
+    width: fit-content;
+    position: relative;
+    top: 110px;
+    color: rgb(224, 224, 224);
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.firstimg {
+    animation: float 3s linear infinite;
+
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(-20px);
+    }
+
+}
+
+.contimg {
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+
+.contactcontainer {
+    width: 700px;
+    height: 600px;
+    background-color: #4609C3;
+    position: relative;
+    top: 380px;
+    border-radius: 10px;
+}
+
+.contus {
+    color: aquamarine;
+    position: relative;
+    left: 1590px;
+    bottom: 940px;
+    font-size: 40px;
+    font-family: 'Chakra Petch', sans-serif;
+    width: fit-content;
+}
+
+h2 {
+    color: white;
+    position: relative;
+    left: 1450px;
+    bottom: 930px;
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    width: fit-content;
+}
+
+.paragraph {
+    color: white;
+    position: relative;
+    left: 1375px;
+    bottom: 910px;
+    font-size: 30px;
+    font-family: 'Jim Nightshade';
+    width: fit-content;
+}
+
+h4 {
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: fit-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: white;
+    font-family: cursive;
+    width: fit-content;
+}
+
+input {
+    position: relative;
+    top: 50px;
+    left: 25px;
+    width: 630px;
+    background-color: #370898;
+    border: none;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 18px;
+    outline: none;
+    text-align: start;
+    color: white;
+}
+
+.messagetext {
+    box-sizing: border-box;
+    height: 140px;
+    text-align: start;
+}
+
+.messagetext::placeholder {
+    position: relative;
+    bottom: 50px;
+}
+
+.SUBMIT {
+    position: relative;
+    top: 50px;
+    left: 25px;
+    background: linear-gradient(to bottom, #F0B000,
+            #F029A0);
+    border-radius: 30px;
+    padding: 16px;
+    width: 170px;
+    transition: 0.4s;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h5 {
+    color: white;
+    position: relative;
+    left: 2080px;
+    bottom: 860px;
+    font-size: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    width: fit-content;
+}
+
+.fa-envelope {
+    color: #5D4FFF;
+    position: relative;
+    position: relative;
+    left: 2070px;
+    bottom: 840px;
+    background-color: #271F51;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: 0.5s all ease;
+}
+
+.fa-phone {
+    color: #5D4FFF;
+    position: relative;
+    position: relative;
+    left: 2000px;
+    bottom: 740px;
+    background-color: #271F51;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: 0.5s all ease;
+
+}
+
+.em6 {
+    color: white;
+    position: relative;
+    left: 2160px;
+    bottom: 905px;
+    width: fit-content;
+    font-size: 20px;
+
+}
+
+.ph6 {
+    color: white;
+    position: relative;
+    left: 2160px;
+    bottom: 830px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.gameem {
+    color: #00FADF;
+    position: relative;
+    left: 2160px;
+    bottom: 925px;
+    width: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.number {
+    color: #00FADF;
+    position: relative;
+    left: 2155px;
+    bottom: 850px;
+    width: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-solid:hover {
+    background-color: #4609C3;
+    box-shadow: white 0px 0px 20px 2px;
+    cursor: pointer;
+}
+
+.maincontent {
+    display: flex;
+    gap: 195px;
+    flex-wrap: wrap;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+.btns .fa-bars {
+    display: none;
+}
+
+.moreinfocont {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 2350px) {
+    
+}
+
+
+
+@media screen and (max-width: 2061px) {
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 1570px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .btns .fa-bars {
+        display: inline-block;
+        background-color: transparent;
+        box-shadow: none;
+        position: relative;
+        left: 40px;
+    }
+
+    .contimg {
+        position: relative;
+        left: 450px;
+    }
+
+    .contactcontainer {
+        position: relative;
+        top: 100px;
+        left: 740px;
+    }
+
+    .moreinfocont {
+        position: relative;
+        right: 600px;
+        top: 200px;
+    }
+
+    .maincontent {
+        margin: auto;
+    }
+
+    h5 {
+        top: -630px;
+        left: 1470px;
+    }
+
+    .fa-envelope {
+        top: -610px;
+        left: 1470px;
+    }
+
+    .fa-phone {
+        top: -510px;
+        left: 1400px;
+    }
+
+    .em6 {
+        top: -670px;
+        left: 1555px;
+    }
+
+    .gameem {
+        top: -690px;
+        left: 1555px;
+    }
+
+    .ph6 {
+        top: -595px;
+        left: 1555px;
+    }
+
+    .number {
+        top: -610px;
+        left: 1555px;
+    }
+}
+
+@media screen and (max-width: 1616px) {
+
+    footer {
+        height: 1570px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .btns .fa-bars {
+        display: inline-block;
+        background-color: transparent;
+        box-shadow: none;
+        position: relative;
+        left: 40px;
+    }
+
+    .contimg {
+        position: relative;
+        left: 450px;
+    }
+
+    .contactcontainer {
+        position: relative;
+        top: 100px;
+        left: 740px;
+    }
+
+    .moreinfocont {
+        position: relative;
+        right: 600px;
+        top: 200px;
+    }
+
+    .maincontent {
+        position: relative;
+        left: -500px !important;
+    }
+
+    .contus {
+        left: 1075px;
+    }
+
+    h2 {
+        left: 945px;
+    }
+
+    .paragraph {
+        left: 875px;
+
+    }
+
+    h5 {
+        top: -630px;
+        left: 1000px;
+    }
+
+    .fa-envelope {
+        top: -610px;
+        left: 1000px;
+    }
+
+    .fa-phone {
+        top: -510px;
+        left: 930px;
+    }
+
+    .em6 {
+        top: -670px;
+        left: 1090px;
+    }
+
+    .gameem {
+        top: -690px;
+        left: 1090px;
+    }
+
+    .ph6 {
+        top: -595px;
+        left: 1090px;
+    }
+
+    .number {
+        top: -610px;
+        left: 1090px;
+    }
+}
